@@ -187,7 +187,7 @@
     <script>
         document.getElementById('fetchRepos').addEventListener('click', async () => {
             try {
-                const response = await fetch('https://github-app-backend-48t72ojsn-zuhairatechs-projects.vercel.app/api/list-repos.js');
+                const response = await fetch('https://github-app-backend.vercel.app/api/list-repos.js');
                 const data = await response.json();
                 const repos = data.repositories;
 
